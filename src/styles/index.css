@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-pixel-bg text-pixel-text font-pixel;
+    font-family: 'Press Start 2P', monospace;
+    font-size: 12px;
+    image-rendering: pixelated;
+    image-rendering: -moz-crisp-edges;
+    image-rendering: crisp-edges;
+  }
+}
+
+@layer components {
+  .pixel-border {
+    border: 2px solid currentColor;
+    border-image: url("data:image/svg+xml,%3csvg width='100' height='100' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='m1,1 h14 m0,0 v14 m0,0 h-14 m0,0 v-14' fill='none' stroke='black' stroke-width='2'/%3e%3c/svg%3e") 2;
+  }
+  
+  .pixel-button {
+    @apply pixel-border bg-pixel-surface hover:bg-pixel-primary active:bg-pixel-accent transition-colors px-4 py-2 text-pixel-text cursor-pointer select-none;
+  }
+  
+  .pixel-card {
+    @apply pixel-border bg-pixel-surface p-4 m-2;
+  }
+  
+  .xp-bar {
+    @apply bg-pixel-primary h-4 pixel-border relative overflow-hidden;
+  }
+  
+  .xp-fill {
+    @apply bg-gradient-to-r from-pixel-success to-pixel-warning h-full transition-all duration-500 ease-out;
+  }
+  
+  .pet-container {
+    @apply w-32 h-32 flex items-center justify-center relative;
+    image-rendering: pixelated;
+  }
+}
+
+/* Pixel art scaling */
+.pixel-art {
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+}
