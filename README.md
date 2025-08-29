@@ -1,25 +1,29 @@
 # 🐱 PixelPet - Your Coding Companion
 
-A gamified productivity app that motivates developers to maintain consistent coding habits through virtual pet companions that grow with your GitHub activity.
+A gamified productivity app that motivates developers to maintain consistent coding habits through virtual pet companions that grow with your GitHub activity. Each project gets its own unique pet in a shared park environment!
 
 ## ✨ Features
 
 ### 🎮 Core Mechanics
-- **Virtual Pets**: Choose from 5 different pet species (Commit Cat, Bug Bee, PR Penguin, Deploy Dragon, Doc Dog)
-- **Dynamic Evolution**: Pets evolve through 5 stages based on your coding consistency
-- **Smart XP System**: Rewards meaningful commits with bonus XP based on project type
-- **Streak Tracking**: Visual streak counter with 8-bit commit calendar
+- **Multiple Pet System**: Each GitHub repository becomes its own unique pet
+- **Pet Park Environment**: View all your coding companions in one beautiful park with wandering animations
+- **Two Pet Species**: Choose between Commit Cat 🐱 or Code Corgi 🐕 for each project
+- **Dynamic Evolution**: Pets evolve through 5 stages (Egg → Hatchling → Juvenile → Adult → Legendary) based on XP
+- **Individual Health System**: Each pet has separate health and happiness that decays without commits
+- **Smart Sick States**: Pets show visual sickness with sweat drops, dizzy stars, and sad expressions when neglected
 
-### 🎯 Project Types (Auto-detected or Manual)
-- **📚 Learning Projects**: Extra XP for any progress, perfect for tutorials and practice
-- **💰 Side Hustles**: Bonus rewards for documentation, READMEs, and polish work
-- **🧪 Experiments**: Rewards exploration and trying new technologies
-- **⭐ Portfolio Pieces**: Big bonuses for feature completion and deployment
+### 🏞️ Pet Park Features
+- **Multi-Project Dashboard**: Manage all your coding projects in one place
+- **Average Health Display**: Park shows average health/happiness across all pets
+- **Interactive Pet Wandering**: Pets move around the park with realistic animations
+- **Click-to-Enter**: Click any pet to jump into that project's dashboard
+- **Individual Pet Care**: Each pet responds to commits in their specific repository
 
-### 📱 PWA Support
-- **Add to Dock**: Works as a native macOS app via Safari
-- **Offline Capable**: Core functionality works without internet
-- **Push Notifications**: Get notified when your pet needs attention
+### 📊 Advanced Analytics
+- **Commit Calendar**: Interactive calendar showing daily activity with clickable details
+- **Level Milestones**: Achievement system with hover tooltips for descriptions
+- **Streak Tracking**: Visual streak counter with real commit data
+- **Project Statistics**: Individual stats for each pet/project
 
 ## 🚀 Quick Start
 
@@ -75,6 +79,12 @@ Each project type has different milestone timings:
 - **Experiments**: 2→10→30→90 days
 - **Portfolio**: 5→20→60→120 days
 
+### Project Management
+- **Add Multiple Projects**: Create pets for different repositories
+- **Individual Pet Care**: Each project has its own health/happiness metrics
+- **Project Deletion**: Remove projects and their pets from your park
+- **Average Health Display**: Park overview shows combined pet wellness
+
 ## 🎮 Demo Mode
 
 Try the app without a GitHub token:
@@ -85,7 +95,7 @@ Try the app without a GitHub token:
 ## 🔮 Future Features
 
 - **Social Features**: Friend leaderboards and team challenges
-- **Multiple Projects**: Track different repositories simultaneously
+- **Enhanced Pet Types**: More species beyond cats and dogs
 - **Achievements System**: Unlock special badges and rewards
 - **Integrations**: Support for GitLab, Bitbucket, and other platforms
 - **Mobile App**: Native iOS/Android versions
